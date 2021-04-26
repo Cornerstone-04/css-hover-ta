@@ -1,0 +1,57 @@
+@import "http://fonts.fontstorage.com/import/poppins.css";
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #15141f, #38248f);
+}
+
+h1{
+    margin: 30px 0;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 50px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+.box{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    margin: 20px;
+    background: #2626269f;
+}
+
+.box h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 10px;
+    top: 0px;
+    position: relative;
+    font-size: 25px;
+    font-family: 'Poppins';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.box iframe{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    width: 100%;
+    transition: bottom .5s ease-in-out;
+}
+
+.box iframe:hover{
+    bottom: -150px;
+}
